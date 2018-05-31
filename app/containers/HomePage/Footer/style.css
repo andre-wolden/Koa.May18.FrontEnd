@@ -1,0 +1,7 @@
+.footer {
+    border-radius: 0 0 10px 10px;
+    border: 1px solid #EEEE;
+    border-top: 2px dashed #9999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

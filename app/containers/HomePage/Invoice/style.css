@@ -1,0 +1,32 @@
+.badge-controlled {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+
+.badge-processed {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+} 
+
+.invoice-row {
+    padding: 10px;
+    border-top: #9999 solid 1px;
+    font-size: small;
+}
+
+.invoice-header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: medium;
+    color: #7777;
+}
+
+.invoice-inner {
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
