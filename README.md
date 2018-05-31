@@ -8,6 +8,7 @@
   ### Option 1 (quick and easy)
   1. Run `yarn start`
 
+  (DONT USE THIS YET)
   ### Option 2 (slow and better)
   1. Run `npm install pm2 -g`<br />
   2a. For FrontEnd: Run `pm2 start server --watch`<br />
