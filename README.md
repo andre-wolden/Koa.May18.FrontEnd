@@ -16,6 +16,6 @@
   3a. Run `pm2 list` to see all processes<br />
   3b. Run `pm2 monit` to see detailed processes<br />
 
-4. Open browser and navigate to `http://localhost:2425`
+Open browser and navigate to `http://localhost:2425`
 
 Now you're ready to rumble!
