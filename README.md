@@ -9,11 +9,11 @@
   1. Run `yarn start`
 
   ### Option 2 (slow and better)
-  1. Run `npm install pm2 -g`
-  2a. For FrontEnd: Run `pm2 start server --watch`
-  2b. For BackEnd: Run `pm2 start app.js --watch`
-  3a. Run `pm2 list` to see all processes
-  3b. Run `pm2 monit` to see detailed processes
+  1. Run `npm install pm2 -g`<br />
+  2a. For FrontEnd: Run `pm2 start server --watch`<br />
+  2b. For BackEnd: Run `pm2 start app.js --watch`<br />
+  3a. Run `pm2 list` to see all processes<br />
+  3b. Run `pm2 monit` to see detailed processes<br />
 
 4. Open browser and navigate to `http://localhost:2425`
 
