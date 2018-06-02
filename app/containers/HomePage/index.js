@@ -1,11 +1,4 @@
-/*
- * HomePage
- *
- * This is the first thing users see of our App, at the '/' route
- */
-
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { createStructuredSelector } from 'reselect';
@@ -18,29 +11,18 @@ import { changeUsername } from './actions';
 import { makeSelectUsername } from './selectors';
 import reducer from './reducer';
 import saga from './saga';
-import { getHomePageTitle } from './constants';
 
-import Header from './Header';
 import Title from './Title';
 import InfoDisplay from './InfoDisplay';
-import CornerRibbon from './CornerRibbon';
-import Footer from './Footer';
 import './style.css';
 
 export class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <article>
-        <Helmet>
-          <title>{getHomePageTitle()}</title>
-          <meta name="description" content="A KOA Homepage" />
-        </Helmet>
-        <Header />
+      <div>
         <InfoDisplay />
         <Title />
-        <Footer />
-        <CornerRibbon />
-      </article>
+      </div>
     );
   }
 }

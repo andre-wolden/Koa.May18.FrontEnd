@@ -10,7 +10,7 @@ class Title extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col">
-                Her kommer første info om firmaet
+                This is the productpage
               </div>
           </div>
         </div>
