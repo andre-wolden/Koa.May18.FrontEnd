@@ -14,13 +14,13 @@ Now you're ready to rumble!
 ### App (base)
     |-index.js
     |-style.css
-  ### Homepage (folder)
+  #### Homepage (folder)
       |-index.js
       |-style.css
-  ### Product (folder)
+  #### Product (folder)
       |-index.js
       |-style.css
-  ### Contact (folder)
+  #### Contact (folder)
       |-index.js
       |-style.css
 
