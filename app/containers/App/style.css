@@ -1,3 +1,7 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .appwrapper {
     font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 12px;
@@ -9,3 +13,38 @@
     -moz-font-smoothing: antialiased;
     font-weight: 300;
 }
+
+/* Override Bootstrap col */
+div .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+a:hover {
+    color: #ff6a00;
+    transition: color 0.2s ease;
+}
+
+
+  
+  div .bordered {
+      background: #fff;
+      line-height: 3;
+      position: relative;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  div .centered {
+      text-align: center;
+  }
+  
+  div .appWrapper {
+      width: 100%;
+  }
+  

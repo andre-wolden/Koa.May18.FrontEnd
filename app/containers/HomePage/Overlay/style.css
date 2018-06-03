@@ -1,0 +1,29 @@
+.overlay {
+    height: 100%;
+    background-color: #576d7b;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    top: -100px;
+    color: white;
+    border: 1px solid #a3acb1;
+    padding: 30px;
+}
+
+.overlay-header {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xx-large;
+    line-height: 1.1;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.overlay-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    padding: 0 50px;
+    text-align: center;
+    padding-top: 30px;
+}

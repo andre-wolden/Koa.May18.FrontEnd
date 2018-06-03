@@ -1,0 +1,41 @@
+.product-overview-title {
+  height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: xx-large;
+  line-height: 1.5;
+  padding: 0 80px;
+  text-align: center;
+}
+
+#product-icon-1 {
+  background-image: url('../../../images/Homepage/handyman1.jpg');
+  height: 300px;
+  width: 100px;
+  background-size: contain;
+  background-position-x: center;
+}
+
+#product-icon-2 {
+  background-image: url('../../../images/Homepage/handyman2.jpg');
+  height: 300px;
+  width: 100px;
+  background-size: contain;
+  background-position-x: center;
+}
+
+#product-icon-3 {
+  background-image: url('../../../images/Homepage/handyman3.jpg');
+  height: 300px;
+  width: 100px;
+  background-size: contain;
+  background-position-x: center;
+}
+
+.product-icon-text {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: large;
+  padding-bottom: 50px;
+}

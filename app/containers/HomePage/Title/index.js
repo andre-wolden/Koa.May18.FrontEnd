@@ -10,8 +10,12 @@ class Title extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col">
-                Her kommer første info om firmaet
+              <div className="background-image">
+                <div className="title-inner">
+                  This is the homepage
+                </div>
               </div>
+            </div>
           </div>
         </div>
       </div>

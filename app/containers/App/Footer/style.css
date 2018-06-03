@@ -1,8 +1,7 @@
 .footer {
  height: 200px;
- background-color: rgb(97, 97, 97);
+ background-color: #576d7b;
  color: white;
- padding-left: 300px;
  padding-top: 100px;
  font-size: 30px;
 }

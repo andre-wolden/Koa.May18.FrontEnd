@@ -27,7 +27,7 @@ export default function App() {
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />
-      <CornerRibbon />
+      {/* <CornerRibbon /> */}
     </div>
   );
 }
