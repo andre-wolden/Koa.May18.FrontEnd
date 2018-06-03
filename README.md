@@ -10,17 +10,18 @@ Open browser and navigate to `http://localhost:2425`
 Now you're ready to rumble!
 
 ## Structure
+App (base) handles `Route` and spawns the correct page according to URL. It also contains all common functionality (i.e. footer, header, notfoundpage). Each subpage handles all components under its own page.
 
 ### App (base)
     |-index.js
     |-style.css
-  #### Homepage (folder)
+  #### Homepage (subpage)
       |-index.js
       |-style.css
-  #### Product (folder)
+  #### Product (subpage)
       |-index.js
       |-style.css
-  #### Contact (folder)
+  #### Contact (subpage)
       |-index.js
       |-style.css
 
