@@ -17,6 +17,7 @@ import InfoDisplay from '../App/InfoDisplay';
 import './style.css';
 import ProductOverview from './ProductOverview';
 import Overlay from './Overlay';
+import ProcessOverview from './ProcessOverview';
 
 export class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
@@ -26,6 +27,7 @@ export class HomePage extends React.PureComponent { // eslint-disable-line react
         <Title />
         <Overlay />
         <ProductOverview />
+        <ProcessOverview />
       </div>
     );
   }
