@@ -11,7 +11,7 @@ Now you're ready to rumble!
 
 ## Structure
 
-### App (folder)
+### App (base)
     |-index.js
     |-style.css
   ### Homepage (folder)
