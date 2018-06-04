@@ -21,3 +21,7 @@
 #process-overview-graph {
     max-height: 400px;
 }
+
+.container {
+    max-width: 100%;
+}

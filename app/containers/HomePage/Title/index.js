@@ -12,7 +12,7 @@ class Title extends React.Component {
             <div className="col">
               <div className="background-image">
                 <div className="title-inner content">
-                  This is the homepage
+                  Personal & Warm
                 </div>
               </div>
             </div>

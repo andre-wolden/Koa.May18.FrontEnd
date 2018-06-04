@@ -1,7 +1,6 @@
 .title {
     height: 400px;;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.521);
     font-size: 30px;
     padding-top: 0;
 }
@@ -11,12 +10,10 @@
 }
 
 .background-image {
-    background-image: url('../../../images/Homepage/handyman.jpg');
+    background-image: url('../../../images/Homepage/sun.jpg');
     background-size: cover;
     display: block;
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-    height: 400px;
+    height: 500px;
     left: 0;
     position: relative;
     right: 0;
@@ -31,18 +28,13 @@
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 60px;
-    top: 50px;
-    left: 0;
-    height: 200px;
+    top: 80px;
     position: relative;
     margin-left: 20px;
     margin-right: 20px;
     right: 0;
-    z-index: 2;
+    z-index: 999;
     max-width: 700px;;
     padding: 20px 10px;
-  }
-
-  .container {
-      max-width: 10000px;
+    line-height: 2;
   }
